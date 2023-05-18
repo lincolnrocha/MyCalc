@@ -8,22 +8,26 @@ class CalcAppTest {
 
 	@Test
 	void testAdd() {
-		fail("Not yet implemented");
+		CalcApp calc = new CalcApp();
+		assertEquals(10.00, calc.add(5.0, 5.0));
 	}
 
 	@Test
 	void testMinus() {
-		fail("Not yet implemented");
+		CalcApp calc = new CalcApp();
+		assertEquals(0.00, calc.minus(5.0, 5.0));
 	}
 
 	@Test
 	void testPlus() {
-		fail("Not yet implemented");
+		CalcApp calc = new CalcApp();
+		assertEquals(25.00, calc.plus(5.0, 5.0));
 	}
 
 	@Test
 	void testDiv() {
-		fail("Not yet implemented");
+		CalcApp calc = new CalcApp();
+		assertEquals(1.00, calc.div(5.0, 5.0));
 	}
 
 }
