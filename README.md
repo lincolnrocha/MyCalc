@@ -1,2 +1,2 @@
 # MyCalc
-A simple calculator onder CI
+A simple calculator under CI
