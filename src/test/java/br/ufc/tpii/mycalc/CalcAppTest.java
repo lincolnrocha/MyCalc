@@ -28,6 +28,7 @@ class CalcAppTest {
 	void testDiv() {
 		CalcApp calc = new CalcApp();
 		assertEquals(1.00, calc.div(5.0, 5.0));
+		assertEquals(0.00, calc.div(5.0, 0.0));
 	}
 
 }
